@@ -1,0 +1,132 @@
+# https://github.com/github/gitignore
+
+# --- TABLE OF CONTENTS --------------------------------------------------------
+#
+#  01. Operating Systems
+#  02. Package Managers
+#  03. Build Tools
+#  04. Editors
+#  05. Project Files
+
+
+# --- 01. OPERATING SYSTEMS ----------------------------------------------------
+
+# Windows
+$RECYCLE.BIN/
+*.cab
+*.lnk
+*.msi
+*.msm
+*.msp
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+
+# Mac OS
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.DocumentRevisions-V100
+.DS_Store
+.fseventsd
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+Icon
+Network Trash Folder
+Temporary Items
+
+# Linux
+*~
+.directory
+.fuse_hidden*
+.Trash-*
+
+
+# --- 02. PACKAGE MANAGERS  ----------------------------------------------------
+
+# Composer
+/vendor/
+composer.phar
+
+# NodeJS
+*.log
+*.pid
+*.seed
+.grunt
+.lock-wscript
+.node_repl_history
+.npm
+build/Release
+coverage
+jspm_packages
+lib-cov
+logs
+node_modules
+npm-debug.log*
+pids
+
+
+
+# --- 03. BUILD TOOLS ----------------------------------------------------------
+
+# SASS
+.sass_cache
+
+
+# --- 04. EDITORS --------------------------------------------------------------
+
+# Sublime Text
+*.stTheme.cache
+*.sublime-workspace
+*.tmlanguage.cache
+*.tmPreferences.cache
+sftp-config.json
+
+
+# --- 05. PROJECT FILES --------------------------------------------------------
+
+# Compiled Lua sources
+luac.out
+
+# luarocks build files
+*.src.rock
+*.zip
+*.tar.gz
+
+# Object files
+*.o
+*.os
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex

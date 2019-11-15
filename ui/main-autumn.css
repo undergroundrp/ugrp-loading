@@ -1,0 +1,12 @@
+#cover {
+  background-image: url('nui://ugrp-loading/ui/bg-autumn.jpg');
+}
+
+.progress__inner {
+  background-image: linear-gradient(
+    90deg,
+    rgba(162, 26, 0, 1) 0%,
+    rgba(245, 111, 21, 1) 50%,
+    rgba(252, 181, 33, 1) 100%
+  );
+}

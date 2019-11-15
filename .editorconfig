@@ -1,0 +1,333 @@
+# EditorConfig
+# http://editorconfig.org
+
+# Root configuration
+root = true
+
+# --- TABLE OF CONTENTS --------------------------------------------------------
+#
+#  01. Global
+#  02. Compiled Languages
+#  03. Interpreted Languages
+#  04. Markup Languages
+#  05. Style Sheets
+#  06. Configuration Files
+#  07. Package Managers
+#  08. Task Runners
+#  09. Continuous Integration
+#  10. Build Tools
+#  11. Shell Scripts
+#  12. Web Applications
+#  13. Web Frameworks
+#  14. Miscellaneous
+
+
+# --- 01. GLOBAL ---------------------------------------------------------------
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+
+# --- 02. COMPILED LANGUAGES ---------------------------------------------------
+
+# C++
+# https://google.github.io/styleguide/cppguide.html
+[**.{cpp,hpp}]
+indent_size = 2
+indent_style = space
+
+# C Sharp
+# https://msdn.microsoft.com/en-us/library/ff926074.aspx
+[**.cs]
+indent_size = 4
+indent_style = space
+
+# D
+[**.d]
+indent_size = 4
+indent_style = space
+
+# Erlang
+[**.[erl,hrl]]
+indent_size = 2
+indent_style = space
+
+# Go
+[**.go]
+indent_size = 4
+indent_style = space
+
+# Java
+# https://google.github.io/styleguide/javaguide.html
+[**.{java,class}]
+indent_size = 2
+indent_style = space
+
+# Objective-C
+# https://google.github.io/styleguide/objcguide.xml
+[**.{C,h,m,mm}]
+indent_size = 2
+indent_style = space
+
+# Rust
+[**.{rs,rlib}]
+indent_size = 4
+indent_style = space
+
+# Scala
+[**.{sc,scala}]
+indent_size = 2
+indent_style = space
+
+# VB.NET
+[**.vb]
+indent_size = 4
+indent_style = space
+
+
+# --- 03. INTERPRETED LANGUAGES-------------------------------------------------
+
+# ActionScript
+[**.as]
+indent_size = 4
+indent_style = space
+
+# ASP
+[**.asp]
+indent_size = 4
+indent_style = space
+
+# ASP.NET
+[**.aspx]
+indent_size = 4
+indent_style = space
+
+# CoffeeScript
+[**.coffee]
+indent_size = 2
+indent_style = space
+
+# ColdFusion/CFML
+[**.{cfc,cfm,lucee}]
+indent_size = 4
+indent_style = space
+
+# Haskell
+[**.{hs,lhs}]
+indent_size = 4
+indent_style = space
+
+# Java Server Pages
+[**.jsp]
+indent_size = 4
+indent_style = space
+
+# JavaScript
+# https://google.github.io/styleguide/javascriptguide.xml
+[**.{js,json}]
+indent_size = 2
+indent_style = space
+
+# Lua
+# http://lua-users.org/wiki/LuaStyleGuide
+[**.lua]
+indent_size = 2
+indent_style = space
+
+# Perl
+# http://perldoc.perl.org/perlstyle.html
+[**.{pl,pm,pod,t}]
+indent_size = 4
+indent_style = space
+
+# PHP
+# http://www.php-fig.org/psr/
+[**.{php,phtml,phps}]
+indent_size = 4
+indent_style = space
+
+# Python
+# https://www.python.org/dev/peps/pep-0008/
+[**.py]
+indent_size = 4
+indent_style = space
+
+# Ruby
+# https://github.com/styleguide/ruby
+[**.{rb,rbw,erb,rhtml}]
+indent_size = 2
+indent_style = space
+
+#VBScript
+[**.vbs]
+indent_size = 2
+indent_style = space
+
+
+# --- 04. MARKUP LANGUAGES------------------------------------------------------
+
+# HAML
+[**.haml]
+indent_size = 2
+indent_style = space
+
+# HTML
+# https://google.github.io/styleguide/htmlcssguide.xml
+[**.{htm,html}]
+indent_size = 2
+indent_style = space
+
+# JADE
+[**.jade]
+indent_size = 2
+indent_style = space
+
+# Markdown
+[**.md]
+indent_size = 4
+indent_style = space
+trim_trailing_whitespace = false
+
+# reStructuredText
+[**.rst]
+indent_size = 4
+indent_style = space
+indent_style = space
+
+# SLIM
+[**.slim]
+indent_size = 2
+indent_style = space
+
+# XML
+# http://google.github.io/styleguide/xmlstyle.html
+[**.xml]
+indent_size = 2
+indent_style = space
+
+
+# --- 05. STYLE SHEETS ---------------------------------------------------------
+
+# CSS
+# https://google.github.io/styleguide/htmlcssguide.xml
+[**.css]
+indent_size = 2
+indent_style = space
+
+# LESS
+[**.less]
+indent_size = 2
+indent_style = space
+
+# SASS
+# http://sass-guidelin.es/#syntax--formatting
+[**.sass]
+indent_size = 2
+indent_style = space
+
+# SCSS
+# http://sass-guidelin.es/#syntax--formatting
+[**.scss]
+indent_size = 2
+indent_style = space
+
+# Stylus
+# http://stylus-lang.com/docs/css-style.html
+[**.styl]
+indent_size = 2
+indent_style = space
+
+
+# --- 06. CONFIGURATION FILES --------------------------------------------------
+
+# YAML
+[**.{yaml,yml}]
+indent_size = 2
+indent_style = space
+
+
+# --- 07. PACKAGE MANAGERS -----------------------------------------------------
+
+# Node
+[package.json]
+indent_size = 2
+indent_style = space
+
+# Bower
+# https://github.com/bower/bower/blob/master/.editorconfig
+[bower.json]
+indent_size = 2
+indent_style = space
+
+# Bower
+# https://github.com/bower/bower/blob/master/.editorconfig
+[**.std]
+insert_final_newline = false
+
+
+# --- 08. TASK RUNNERS ---------------------------------------------------------
+
+# ...
+
+
+# --- 09. CONTINUOUS INTEGRATION -----------------------------------------------
+
+# Travis
+[.travis.yml]
+indent_size = 2
+indent_style = space
+
+
+# --- 10. BUILD TOOLS ----------------------------------------------------------
+
+# Makefiles
+[Makefile]
+indent_size = 4
+indent_style = tab
+
+
+# --- 11. SHELL SCRIPTS --------------------------------------------------------
+
+# Windows Batch Script
+[*.bat]
+indent_size = 4
+indent_style = tab
+
+# Linux/Unix Shell Script
+# https://google.github.io/styleguide/shell.xml
+[*.sh]
+indent_size = 2
+indent_style = space
+
+# Windows PowerShell
+[*.ps1]
+indent_size = 4
+indent_style = space
+
+
+# --- 12. WEB APPLICATIONS -----------------------------------------------------
+
+# ...
+
+
+# --- 13. WEB FRAMEWORKS -------------------------------------------------------
+
+# ...
+
+
+# --- 14. MISCELLANEOUS --------------------------------------------------------
+
+# Minified Files
+[**.min.{css,js}]
+indent_style = ignore
+insert_final_newline = ignore
+
+# Text Files
+[**.txt]
+indent_size = 4
+indent_style = space
